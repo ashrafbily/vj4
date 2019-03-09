@@ -11,7 +11,7 @@ options.define('smtp_host', default='', help='SMTP server')
 options.define('smtp_port', default=465, help='SMTP server')
 options.define('smtp_user', default='', help='SMTP username')
 options.define('smtp_password', default='', help='SMTP password')
-options.define('mail_from', default='', help='Mail from')
+options.define('mail_from', default=options.smtp.user, help='Mail from')
 
 _logger = logging.getLogger(__name__)
 
