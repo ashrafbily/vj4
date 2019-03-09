@@ -260,14 +260,14 @@ DOMAIN_SYSTEM = {
               ROLE_MEMBER: DEFAULT_PERMISSIONS,
               ROLE_ADMIN: ADMIN_PERMISSIONS},
     'gravatar': '',
-    'name': 'Vijos',
+    'name': u'知新少儿编程',
     'bulletin': ''
 }
 DOMAINS = [DOMAIN_SYSTEM]
 
 # Users.
 UID_SYSTEM = 0
-UNAME_SYSTEM = 'Vijos'
+UNAME_SYSTEM = u'知新少儿编程'
 USER_SYSTEM = {
     '_id': UID_SYSTEM,
     'uname': UNAME_SYSTEM,
@@ -328,9 +328,9 @@ LEVELS = collections.OrderedDict([(10, 1),
                                   (1, 100)])
 
 # Footer extra HTMLs. TODO(iceboy): remove.
-FOOTER_EXTRA_HTMLS = ['© 2005 - 2019 <a href="https://vijos.org/">Vijos.org</a>', version.get(),
+FOOTER_EXTRA_HTMLS = ['© 2018 - 2019 <a href="https://zhixinfuture.com">知新少儿编程</a>', version.get(),
                       '<a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">' +
-                      '沪ICP备14040537号</a>']
+                      '皖ICP备18006700号-1</a>']
 
 PROBLEM_CATEGORIES = collections.OrderedDict([
     ('动态规划', [
