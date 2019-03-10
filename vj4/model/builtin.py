@@ -486,8 +486,8 @@ DEFAULT_VNODES = collections.OrderedDict([
     {'pic': 'share', 'name': '分享'},
     {'pic': 'solution', 'name': '题解'}
   ]),
-  ('Vijos', [
-    {'pic': 'vijos', 'name': 'Vijos'},
+  ('知新少儿编程', [
+    {'pic': 'zhixin', 'name': '知新'},
     {'pic': None, 'name': '团队'},
     {'pic': None, 'name': '月赛'},
     {'pic': 'advice', 'name': '建议'}
